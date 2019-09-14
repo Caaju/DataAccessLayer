@@ -8,6 +8,7 @@ namespace CaajuTI.DAL.Factory
 {
     class DataParameterFactory
     {
+        static bool success;
         public static TDataParameter Builder<TDataParameter>(string paramaterName,object value)
             where TDataParameter:new()
         {
